@@ -1,0 +1,295 @@
+body {
+    margin: 0px;
+    background-color: rgba(180, 170, 170, 0.15);
+}
+
+.header {
+    background-color: #316DC3;
+    margin-top: 0px;
+    text-align: center;
+}
+
+.icon {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.icon img {
+    width: 16px;
+    margin-right: 15px;
+}
+
+.line {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 80px;
+    margin-left: 100px;
+    color: white;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.buttons {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.buttons button {
+    margin-left: 10px;
+    color: green;
+    font-size: 11px;
+    padding: 5px 10px;
+    font-weight: 100px;
+    border: 1px solid black;
+}
+
+
+/* second header div */
+
+.nav {
+    background-color: #fff;
+    color: #fff;
+    text-align: center;
+}
+
+.menu-img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 300px;
+}
+
+.menu-img img {
+    width: 200px;
+}
+
+.menu-bar {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 18px;
+}
+
+.menu-bar ul li:hover {
+    background-color: #316DC3;
+    transition: 0.9s;
+}
+
+.menu-bar ul li a:hover {
+    color: white;
+    font-style: italic;
+    transition: 0.9s;
+}
+
+.menu-bar ul {
+    list-style: none;
+    display: inline-flex;
+    text-align: left;
+}
+
+.menu-bar ul li {
+    margin: 0px;
+    padding: 10px 10px;
+    border-radius: 30px;
+}
+
+.sub-menu {
+    display: none;
+    width: 240px;
+}
+
+.sub-menu ul {
+    padding-inline-start: 0px;
+}
+
+.menu-bar ul li:hover .sub-menu {
+    display: block;
+    position: absolute;
+    background: #fff;
+    margin-left: -20px;
+    margin-top: 10px;
+}
+
+.menu-bar ul li:hover .sub-menu ul {
+    display: block;
+    margin: 10px;
+}
+
+.child-menu {
+    display: none;
+    width: 220px;
+}
+
+.sub-menu ul li:hover .child-menu {
+    display: block;
+    position: absolute;
+    background-color: #fff;
+    margin-top: -40px;
+    margin-left: 200px;
+}
+
+.childchild-menu {
+    display: none;
+    width: 240px
+}
+
+.child-menu ul li:hover .childchild-menu {
+    display: block;
+    position: absolute;
+    background-color: #fff;
+    margin-top: -40px;
+    margin-left: 170px;
+}
+
+.menu-bar ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.slider img {
+    width: 100%;
+    height: 490px;
+}
+
+.moving {
+    width: 1210px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    background-color: #316DC3;
+    font-size: 20px;
+    color: white;
+}
+
+.details {
+    width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    color: gray;
+    text-align: center;
+}
+
+.details p {
+    text-align: justify;
+}
+
+.figures {
+    background-color: rgba(36, 79, 242, 1);
+    text-align: center;
+    padding: 90px;
+}
+
+.figuresbox {
+    display: inline-block;
+    color: aliceblue;
+    margin-left: 40px;
+}
+
+.figuresbox img {
+    width: 40px;
+}
+
+.figureheadfont {
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.figurefont {
+    font-size: 20px;
+}
+
+.figurefontlarge {
+    font-size: 30px;
+    color: #00FF00;
+}
+
+.doing {
+    width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    text-align: center;
+}
+
+.pic {
+    width: 300px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 1px 2px 4px 2px rgba(0, 0, 0, .25);
+    color: blue;
+    background-color: white;
+}
+
+.pic img {
+    width: 50px;
+}
+
+.gridtable {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.missionevent {
+    display: grid;
+    grid-template-columns: 75% 25%;
+    width: 1110px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+    color: blue;
+}
+
+.missionpicture {
+    border: 1px solid rgba(5, 5, 5, .35);
+    margin: 10px;
+    display: inline-block;
+    width: 350px;
+    padding: 20px;
+    font-weight: 600;
+}
+
+.missionpicture img {
+    margin-right: 20px;
+    vertical-align: middle;
+}
+
+.events div {
+    margin-top: 40px;
+}
+
+#gallery {
+    background-color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+.gallerypic img {
+    width: 220px;
+}
+
+.gallpic {
+    display: inline-block;
+}
+
+footer {
+    background-color: rgba(34, 34, 34, 0.8);
+}
+
+.footer {
+    width: 1110px;
+    color: white;
+    margin-right: auto;
+    margin-left: auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+footer ul {
+    list-style: none;
+    line-height: 25px;
+}
+
+.copy {
+    background-color: blue;
+    padding: 10px;
+    color: white;
+}
