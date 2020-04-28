@@ -214,7 +214,7 @@ body {
     width: 300px;
     padding: 20px;
     margin: 10px;
-    box-shadow: 1px 2px 4px 2px rgba(0, 0, 0, .25);
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.16);
     color: blue;
     background-color: white;
 }
@@ -228,6 +228,12 @@ body {
     grid-template-columns: auto auto auto;
 }
 
+.mispic {
+    background-color: white;
+    margin-top: 50px;
+    padding-bottom: 150px;
+}
+
 .missionevent {
     display: grid;
     grid-template-columns: 75% 25%;
@@ -239,12 +245,14 @@ body {
 }
 
 .missionpicture {
-    border: 1px solid rgba(5, 5, 5, .35);
+    border: 1px solid rgba(5, 5, 5, .1);
     margin: 10px;
     display: inline-block;
     width: 350px;
     padding: 20px;
     font-weight: 600;
+    background-color: rgba(180, 170, 170, 0.15);
+    ;
 }
 
 .missionpicture img {
@@ -257,7 +265,6 @@ body {
 }
 
 #gallery {
-    background-color: white;
     text-align: center;
     font-size: 20px;
 }
