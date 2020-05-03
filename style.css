@@ -399,12 +399,32 @@ footer ul {
     font-size: 15px;
   
 }
-
 @media only screen and (max-width: 768px) {
+.icon{display: block;}
+.line{display: block;}
+.buttons{display: block;}
+.menu-img{display: block;}
+.menu-bar{display: block;}
+.moving{width: 100%;}
+.details{width: 100%;
+margin-left: 5px;
+margin-right: 5px;
+font-size: 10px;}
+.figuresbox{
+    display: block;
+    width: 100%;
+}
+.gridtable {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.missionevent {
+    display: grid;
+    grid-template-columns: auto;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 
-    .moving {
-        width: 700px;
-        font-size: 10px;
+}
 
-    }
   }
