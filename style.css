@@ -400,7 +400,8 @@ footer ul {
   
 }
 @media only screen and (max-width: 768px) {
-    .body{font-size: 14px;}
+    body{font-size: 14px;
+    text-align: center;}
     .icon{
     display: block;}
 
@@ -423,7 +424,8 @@ footer ul {
     width: 100%;
     margin-left: 5px;
     margin-right: 5px;
-    font-size: 9px;}
+    font-size: 9px;
+text-align: justify;}
 
     .figuresbox{
     display: block;
