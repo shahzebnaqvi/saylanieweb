@@ -397,38 +397,30 @@ footer ul {
     margin-left: auto;
     margin-right: auto;
     font-size: 15px;
-  
 }
 @media only screen and (max-width: 768px) {
     body{
         font-size: 14px;
         text-align: center;
     }
-
     .icon{
         display: block;
     }
-
     .line{
         display: block;
     }
-
     .buttons{
         display: block;
     }
-
     .menu-img{
         display: block;
     }
-
     .menu-bar{
         display: block; 
     }
-
     .moving{
         width: 100%;
     }
-
     .details{
     
         width: 100%;
@@ -437,17 +429,14 @@ footer ul {
         font-size: 9px;
         text-align: justify;
     }
-
     .figuresbox{
         display: block;
         width: 100%;
     }
-
     .gridtable {
         display: grid;
         grid-template-columns: auto auto;
     }
-
     .missionevent {
         display: grid;
         grid-template-columns: auto;
@@ -455,11 +444,9 @@ footer ul {
         margin-left: auto;
         margin-right: auto;
     }
-
     .footer {
         width: 100%;
         display: grid;
         grid-template-columns:  auto;
     }
-
-  }
+}
